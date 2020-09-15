@@ -1,0 +1,300 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <style>
+	@import url('https://fonts.googleapis.com/css?family=Roboto:400,600&display=swap');
+* {
+  box-sizing: border-box;   
+}
+#header-img{
+  width:200px;
+  margin:auto;
+  justify-content:center;
+  display:flex;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 50px 0 0;
+  line-height: 1.5;
+  
+}
+p{
+  font-size:20px;
+}
+nav{
+  background-color:#9342f5;
+  display:flex;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  padding: 15px 15px;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+.nav-link{
+  color:black;
+  text-decoration: none;
+  margin:0px 40px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 700px;
+  margin: 0 auto;
+  
+}
+.btn{
+  background-color:#9342f5;
+  border-radius:5px;
+  color:black;
+  text-decoration: none;
+  padding: 12px 15px;
+  box-shadow: 2px 2px 2px #110b40;
+  margin-top:5px;
+}
+section h2{
+  text-align:center;
+  margin-top:40px;
+}
+.btn:active{
+  box-shadow:0 0 0 #110b40;
+}
+#aa{
+  display:flex;
+  justify-content:center;
+}
+
+
+.feature {
+  background: #9342f5;
+  border-radius: 10px;
+  margin: 0 1.66%;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.feature i {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.feature h2 {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+
+.feature p {
+  font-size: 12px;
+  line-height: 24px;
+}
+/*pricing*/
+#pricings {
+    flex-direction: column;
+  }
+.pricing h2 {
+  font-size: 18px;
+  margin-top: 5px;
+}
+.pricing{
+  font-size: 10px;
+  margin-top: 15px;
+}
+.pricing{
+  background: #9342f5;
+  border-radius: 10px;
+  margin: 0 1.66%;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  flex-wrap:wrap;
+}
+
+iframe {
+  max-width: 90%;
+  margin-bottom: 30px;
+}
+.buy{
+  max-width:100%;
+  padding:10px;
+  margin:auto;
+  border-radius:30px;
+}
+li{
+  list-style:none;
+  font-size:15px;
+  text-align:center;
+}
+/*form section*/
+form{
+  margin-bottom:40px;
+}
+.purple{
+  background-color:#9342f5;
+  margin-top:30px;
+}
+form input{
+  border-radius:5px;
+  color:black;
+  border:0;
+  display:inline-block;
+  padding: 10px 50px;
+  flex:1;
+  margin-top:5px;
+  margin-right:10px;
+}
+form.flex{
+  display:flex;
+  flex-wrap:wrap;
+}
+.btn2{
+  background-color: #ed4755;
+  box-shadow:none;
+  border:none;
+}
+.btn:active{
+  transform:none;
+}
+footer {
+  background-color: black;
+  color:#9342f5 ;
+  padding: 10px;
+  text-align: center;
+}
+@media(max-width:480px){
+  .h1{
+    display:none
+  }
+  .feature{
+    margin:10px;
+    width:100%;
+  }
+  .pricing{
+    margin:10px;
+    width:100%;
+  }
+  .flex input, .flex .btn2{
+    margin: 5px 10px;
+    width:100%;
+  }
+  
+}
+
+
+	</style>
+  </head>
+  
+    
+    <header id="header">
+      
+      <nav id="nav-bar">
+        <a class="nav-link" href="#header">About</a>
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#videos">How it works</a>
+        <a class="nav-link" href="#pricings">Pricing</a>
+        
+      </nav>
+   <div class="container">
+    
+      <div>
+        <h1>Awesome Arm Band</h1>
+      <img id="header-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQPxhpp-DapL_FsYeu01_iBfgo7HeR_MzAjrQ&usqp=CAU" alt="awesome armband logo"/>
+        </div>
+      </div>
+      <p>Skinput is a technology that appropriates the human body for acoustic transmission, allowing the skin to be used as an input surface. The location of finger taps on the arm and hand is resolved by analyzing mechanical vibrations that propagate through the body.</p>
+    </div>
+      <div id="aa">
+      <a class="btn" href="https://en.wikipedia.org/wiki/Skinput">More details</a>
+        </div>
+    </div>
+   </header>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <section id="features">
+  <h2>Features</h2>
+  <div class="container">
+    <div class="feature">
+       <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+      <h2>Premium Materials</h2>
+      <p>Our armband use the Superpower Mxp3
+ pico projector. This will increase the longevity of your purchase</p>
+    </div>
+    <div class="feature">
+      <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+      <h2>Fast Shipping</h2>
+      <p> We make sure you recieve your Armband as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+    </div>
+    <div class="feature">
+      <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+      <h2>Quality Assurance</h2>
+      <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the working.</p>
+    </div>
+  </div>
+</section>
+
+<section id="videos">
+  <h2>video</h2>
+  <div class="container">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/1vgYdDcR-jM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</section>
+  
+</section>
+    <section id="pricings">
+  <h2>Pricings</h2>
+  <div class="container">
+    <div class="pricing">
+      <img class="buy" src="https://banner2.cleanpng.com/20180711/pka/kisspng-gel-bracelet-wristband-bangle-jewellery-hand-band-5b45c4c9e2cbd2.514148451531299017929.jpg" alt="black armband"/>
+      <h2>Black armband</h2>
+      <h3>100$</h3>
+      <ol>
+          <li>LCD color-display.</li>
+          <li>Lorem ipsum.</li>
+          <li>Smart Watch mit Schrittzähle</li>
+          <li>Damen Herren</li>
+        </ol>
+    </div>
+    <div class="pricing">
+      <img class="buy" src="https://banner2.cleanpng.com/20180925/tea/kisspng-wristband-bracelet-green-blue-red-green-wristbands-blank-2u-in-24-silicone-h-5baaba3ccb1c28.843854911537915452832.jpg" alt="black armband"/>
+      <h2>Green band</h2>
+      <h3>200$</h3>
+      <ol>
+          <li>LCD color-display.</li>
+          <li>Wasserdicht</li>
+          <li>Smart Watch mit Schrittzähle</li>
+          <li>Damen Herren</li>
+        </ol>
+    </div>
+    <div class="pricing">
+     <img class="buy" src="https://banner2.cleanpng.com/20180619/lli/kisspng-wristband-gel-bracelet-silicone-bangle-hand-band-5b2967b239bcc3.4494443815294401782365.jpg" alt="black armband">
+      <h2>Orange band</h2>
+      <h3>300$<h3>
+      <ol>
+          <li>LCD color-display.</li>
+          <li>Wasserdicht</li>
+          <li>Smart Watch mit Schrittzähle</li>
+          <li>Damen Herren</li>
+        </ol>
+    </div>
+  </div>
+</section>
+
+<section id="join" class="purple">
+  <div class="container">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <h2>Stay up-to-date with what we're doing</h2>
+      <div class="flex">
+        <input id="email" name="email" type="email" placeholder="Enter your email..."/>
+        <input id="submit" type="submit" class="btn2" value="Submit" />
+      </div>
+    </form>
+  </div>
+</section>
+<footer>
+  Created by Akshatha
+</footer>
+  </body>
+</html>
